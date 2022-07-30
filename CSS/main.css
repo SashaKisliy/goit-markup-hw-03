@@ -1,0 +1,254 @@
+/* Переменные */
+:root {
+    --main-white-color: #FFFFFF;
+    --main-text-color: #757575;
+    --main-title-color: #212121;
+    --accent-color: #2196F3;
+    --second-bg-color: #F5F4FA;
+    --first-bg-color: #2F303A;
+}
+
+body {
+    background: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none
+}
+
+/* Header */
+
+
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.accent {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    color: var(--accent-color);
+}
+
+.header-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: var(--main-title-color); 
+}
+
+.header-list .link.current {
+    color: var(--accent-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+} 
+
+.header-mail,
+.header-tell {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--main-text-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--accent-color);
+}
+
+.header-tell:hover,
+.header-tell:focus {
+    color: var(--accent-color);
+}
+
+
+/* Шапка */
+
+.hero {
+    background-color: var(--first-bg-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--main-white-color);
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    background-color: var(--accent-color);
+    color: var(--main-white-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--main-white-color);
+    background-color: #188CE8;
+}
+
+/* Особенности */
+.section-pre-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-title-color);
+}
+
+.section-text {
+    letter-spacing: 0.03em;
+
+    color: var(--main-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.examples-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-title-color);
+}
+
+/* Team */
+
+.team {
+    background-color: var(--second-bg-color);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-title-color);
+}
+
+.team-pre-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+
+    color: var(--main-title-color);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+
+    color: var(--main-text-color);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--first-bg-color);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    
+    color: var(--main-white-color)
+}
+
+
+.footer-text {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--main-white-color);
+}
+
+.footer-mail,
+.footer-tell {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Portfolio */
+
+.portfolio-btn { 
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--main-title-color);
+    background-color: var(--second-bg-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--main-white-color);
+    background-color: var(--accent-color);
+}
+
+
+
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: var(--main-title-color);
+}
+
+.project-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+    color: var(--main-text-color);
+}
